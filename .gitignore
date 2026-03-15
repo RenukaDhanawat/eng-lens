@@ -32,7 +32,10 @@ next-env.d.ts
 /app/prisma/dev.db
 /app/prisma/dev.db-journal
 
-# Screenshots/Media from verification
+# Screenshots/Media from verification (ignore these)
 *.png
 *.webp
 .system_generated/
+
+# But allow design screens
+!endglens-screens/**/*.png
