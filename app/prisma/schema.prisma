@@ -8,7 +8,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("postgresql://englens_admin:admin123@englens-db.c49caycaqiew.us-east-1.rds.amazonaws.com:5432/postgres")
 }
 
 // ─── Organizations ───────────────────────────────
